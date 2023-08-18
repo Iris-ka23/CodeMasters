@@ -21,6 +21,51 @@ body {
     color: #4d2323;
     overflow-x:hidden;
 }
+/*HEADER*/
+header {
+    flex: 0 0 auto;
+}
+.header {
+    background-color: white;
+  
+}
+.photo {
+    margin: 0 0 0 50px;
+}
+.links {
+    display: inline-flex;
+    padding: 0;
+    gap: 30px;
+    margin: 20px;
+    
+}
+.links li {
+    list-style: none;
+
+}
+.links li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4d2323;
+}
+.links li a:hover{
+    color: #9C3721;
+    text-decoration: underline;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+/*CONTANIER*/
+.contanier {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 auto;
+}
 /*Footer*/
 footer {
     width: 1440px;
