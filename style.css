@@ -20,6 +20,46 @@ body {
     line-height: 1.5;
     color: #4d2323;
     overflow-x:hidden;
- 
-    
+}
+/*Footer*/
+footer {
+    width: 1440px;
+    background-color: white;
+    flex: 0 0 auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.link a {
+    text-decoration: none;
+    color: #4d2323;
+    cursor: pointer;
+}
+.link a:hover {
+    color: #9C3721;
+}
+.text a {
+    text-decoration: none;
+    color: #4d2323;
+    cursor: pointer;
+}
+.text a:hover{
+    color: #9C3721;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+
+}
+.line {
+    background-color: gray;
+    height: 1px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 20px;
 }
