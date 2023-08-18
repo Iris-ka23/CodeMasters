@@ -287,3 +287,32 @@ color: #4d2323;
      flex-wrap: wrap;
    }
  }
+ @media screen and  (max-width:768px) {
+    body {
+        width: 768px;
+       }
+        .contanier {
+        width: 768px;
+        padding: 0 10px 0 10px;
+       }
+       .section_1 {
+        width: 768px;
+        gap: 250px;
+       }
+       .section_2{
+        width: 768px;
+       }
+       .contacts {
+        width: 50%;
+       }
+       .languages{
+        width: calc(50% - 20px);
+       }
+       footer {
+        width: 768px;
+       }
+       .skills ul {
+        flex-wrap: wrap;
+      }
+
+}
