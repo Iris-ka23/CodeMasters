@@ -191,3 +191,18 @@ color: #4d2323;
 .projects a:hover {
     color: #9C3721;
 }
+/*Skills*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    border-bottom: 1px solid #672f2f;
+}
+.skills li{
+    list-style: none;
+}
+.skills ul {
+    display: flex;
+    padding: 0;
+}
