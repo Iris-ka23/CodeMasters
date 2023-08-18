@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,700&family=Roboto:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: white;
+    height: 100%;
+}
+body {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    overflow-x:hidden;
+ 
+    
+}
