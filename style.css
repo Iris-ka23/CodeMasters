@@ -92,6 +92,31 @@ h1 {
     justify-content: space-between;
     width: 1440px;
 }
+.lang {
+    display: flex;
+    justify-content: space-between;
+}
+/*Education*/
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(50% - 20px);
+    justify-content: center;
+    border-bottom: 1px solid #672f2f;
+}
+.text p {
+    margin: 20px;
+
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
 /*Footer*/
 footer {
     width: 1440px;
