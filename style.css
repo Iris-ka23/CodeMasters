@@ -206,3 +206,11 @@ color: #4d2323;
     display: flex;
     padding: 0;
 }
+/*Course*/
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(50% - 20px);
+    border-bottom: 1px solid #672f2f;
+}
